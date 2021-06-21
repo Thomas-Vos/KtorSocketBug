@@ -1,5 +1,5 @@
 plugins {
-    kotlin("multiplatform") version "1.4.31"
+    kotlin("multiplatform") version "1.5.10"
 }
 
 group = "me.paul"
@@ -29,7 +29,7 @@ kotlin {
         }
         val iosArm64Main by getting {
             dependencies {
-                val version = "1.5.2"
+                val version = "1.6.0"
                 implementation("io.ktor:ktor-network:$version")
                 implementation("io.ktor:ktor-client-ios:$version")
             }
